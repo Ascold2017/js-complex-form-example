@@ -1,0 +1,244 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "type": "form_field",
+        "attributes": {
+          "is_multiple": false,
+          "code": "input_1",
+          "name": "Простой текстовый инпут",
+          "placeholder": "Введите строку",
+          "parameters": null
+        },
+        "relationships": {
+          "form_attribute_type": {
+            "data": {
+              "id": 1,
+              "attributes": {
+                "code": "text"
+              },
+              "type": "form_field_type"
+            }
+          }
+        }
+      },
+      {
+        "id": 2,
+        "type": "form_field",
+        "attributes": {
+          "is_multiple": true,
+          "code": "input_2",
+          "name": "Множественный текстовый инпут",
+          "placeholder": "Введите строку",
+          "parameters": null
+        },
+        "relationships": {
+          "form_attribute_type": {
+            "data": {
+              "id": 1,
+              "attributes": {
+                "code": "text"
+              },
+              "type": "form_field_type"
+            }
+          }
+        }
+      },
+      {
+        "id": 3,
+        "type":"form_field",
+        "attributes": {
+          "is_multiple": false,
+          "code": "input_3",
+          "name": "Текстовый инпут с параметрами",
+          "placeholder": "Введите строку",
+          "parameters": {
+            "max_length": 50,
+            "min_length": 5,
+            "default_value": "Тест"
+          }
+        },
+        "relationships": {
+          "form_attribute_type": {
+            "data": {
+              "id": 1,
+              "attributes": {
+                "code": "text"
+              },
+              "type": "form_field_type"
+            }
+          }
+        }
+      },
+      {
+        "id": 4,
+        "type": "form_field_group",
+        "attributes": {
+          "is_multiple": false,
+          "name": "Группа полей",
+          "code": "form_group"
+        },
+        "relationships": {
+          "fields": {
+            "data": [
+              {
+                "id": 5,
+                "type": "form_field",
+                "attributes": {
+                  "is_multiple": false,
+                  "code": "input_5",
+                  "name": "Простой текстовый инпут",
+                  "placeholder": "Введите строку",
+                  "parameters": null
+                },
+                "relationships": {
+                  "form_attribute_type": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "code": "text"
+                      },
+                      "type": "form_field_type"
+                    }
+                  }
+                }
+              },
+              {
+                "id": 6,
+                "type": "form_field",
+                "attributes": {
+                  "is_multiple": true,
+                  "code": "input_6",
+                  "name": "Множественный текстовый инпут",
+                  "placeholder": "Введите строку",
+                  "parameters": null
+                },
+                "relationships": {
+                  "form_attribute_type": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "code": "text"
+                      },
+                      "type": "form_field_type"
+                    }
+                  }
+                }
+              },
+              {
+                "id": 7,
+                "type": "form_field",
+                "attributes": {
+                  "is_multiple": false,
+                  "code": "input_7",
+                  "name": "Текстовый инпут с параметрами",
+                  "placeholder": "Введите строку",
+                  "parameters": {
+                    "max_length": 50,
+                    "min_length": 5,
+                    "default_value": "Тест"
+                  }
+                },
+                "relationships": {
+                  "form_attribute_type": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "code": "text"
+                      },
+                      "type": "form_field_type"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 8,
+        "type": "form_field_group",
+        "attributes": {
+          "is_multiple": true,
+          "name": "Множественная группа полей",
+          "code": "form_group_multiple"
+        },
+        "relationships": {
+          "fields": {
+            "data": [
+              {
+                "id": 9,
+                "type": "form_field",
+                "attributes": {
+                  "is_multiple": false,
+                  "code": "input_9",
+                  "name": "Простой текстовый инпут",
+                  "placeholder": "Введите строку",
+                  "parameters": null
+                },
+                "relationships": {
+                  "form_attribute_type": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "code": "text"
+                      },
+                      "type": "form_field_type"
+                    }
+                  }
+                }
+              },
+              {
+                "id": 10,
+                "type": "form_field",
+                "attributes": {
+                  "is_multiple": true,
+                  "code": "input_10",
+                  "name": "Множественный текстовый инпут",
+                  "placeholder": "Введите строку",
+                  "parameters": null
+                },
+                "relationships": {
+                  "form_attribute_type": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "code": "text"
+                      },
+                      "type": "form_field_type"
+                    }
+                  }
+                }
+              },
+              {
+                "id": 11,
+                "type": "form_field",
+                "attributes": {
+                  "is_multiple": false,
+                  "code": "input_11",
+                  "name": "Текстовый инпут с параметрами",
+                  "placeholder": "Введите строку",
+                  "parameters": {
+                    "max_length": 50,
+                    "min_length": 5,
+                    "default_value": "Тест"
+                  }
+                },
+                "relationships": {
+                  "form_attribute_type": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "code": "text"
+                      },
+                      "type": "form_field_type"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }

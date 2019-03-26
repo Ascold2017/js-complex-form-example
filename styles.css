@@ -1,0 +1,17 @@
+.container {
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.container-title {
+    font-weight: 700;
+    display: block;
+}
+
+.container-input {
+    display: block;
+}
+
+.values-container {
+    padding-left: 15px;
+}
